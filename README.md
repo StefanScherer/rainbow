@@ -1,4 +1,4 @@
-# PLOSSYS rainbow
+# rainbow on Raspberry Pi
 
 [![Build Status](https://travis-ci.org/sealsystems/rainbow.svg?branch=master)](https://travis-ci.org/sealsystems/rainbow)
 [![This image on DockerHub](https://img.shields.io/docker/pulls/sealsystems/rainbow.svg)](https://hub.docker.com/r/sealsystems/rainbow/)
@@ -21,7 +21,7 @@ node bin/app.js
 To start the container, type:
 
 ```
-docker run -it -v /sys:/sys sealsystems/rainbow
+docker run --privileged -it stefanscherer/rainbow
 ```
 
 ## Swarm mode
